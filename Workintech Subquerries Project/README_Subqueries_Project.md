@@ -137,7 +137,3 @@ FROM promo_percent_table;
 ```
 
 🧠 **KPI:** Promo %, Promo Type
-
----
-
-
