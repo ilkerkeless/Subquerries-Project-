@@ -159,17 +159,61 @@ Promotion percentages are computed and classified—this assists in identifying 
 
 ---
 
-## 🧰 Tools & Environment
 
-- **Platform:** Google BigQuery  
-- **Language:** Standard SQL  
-- **Region:** EU (multi‑region)  
-- **Dataset:** `course17` (contains sales, shipping, campaign, NPS data)
+## 📘 Overview
+This project is part of the **Workintech Data Analyst Program**, focusing on analyzing **sales, shipping, and campaign data** using **SQL subqueries (CTEs)** in **Google BigQuery**.  
+The main objective is to uncover insights on **sales performance**, **delivery efficiency**, and **marketing campaign impact**.
 
 ---
 
-## 📈 Author
+## 🛠 Tools & Environment
+| Tool | Purpose |
+|------|----------|
+| **Google BigQuery** | Cloud-based data warehouse for SQL analysis |
+| **SQL (Standard SQL)** | Querying and transforming data |
+| **Dataset:** `course17` | Contains `sales`, `shipping`, `campaign`, and `nps` tables |
+| **Region:** EU (multi-region) |
 
-**İlker Keleş**  
-*Aspired Data Analyst | Workintech Data Analyst Program*  
-[GitHub](https://github.com/ilkerkeless) • [LinkedIn](https://www.linkedin.com/in/ilkerkeless)
+---
+
+## ⚙️ How to Run
+1. Open **Google BigQuery Console**.
+2. Load or connect to the dataset `course17`.
+3. Copy and run the queries from `Queries.sql` (or inside this repo).
+4. Explore:
+   - Sales & campaign performance correlation  
+   - Delivery times vs customer satisfaction  
+   - Conversion rate trends per campaign  
+
+> 💡 *If you don’t have BigQuery access, queries can be adapted for SQLite/PostgreSQL.*
+
+---
+
+## 📊 Key Insights
+| Metric | Finding |
+|--------|----------|
+| **Campaign A** | Highest conversion rate (~12%) |
+| **Late Deliveries** | 8% lower NPS compared to on-time shipments |
+| **Revenue Impact** | Average revenue per campaign: €245 |
+
+*(You can replace these with your actual project results.)*
+
+---
+
+## 🧠 Learnings
+- Applying **CTEs (Common Table Expressions)** for cleaner, modular SQL.  
+- Improved understanding of **data joins** and performance optimization.  
+- Translating business questions into measurable **SQL metrics**.
+
+---
+
+
+## 👤 Author
+**İlker Keleş**  
+🎯 Aspiring Data Analyst | SQL | BigQuery | Data Visualization  
+🔗 [LinkedIn](https://www.linkedin.com/in/ilkerkeless) • [GitHub](https://github.com/ilkerkeless)
+
+---
+
+## 📜 License
+This project is open for **educational and portfolio** purposes.
